@@ -2,21 +2,60 @@
 <html>
     <head>
         <title>Login Form</title>
-        <link rel="stylesheet" type="text/css" href="/home/harshit/Desktop/webChat/CSS/global.css">
+        <link rel="stylesheet" type="text/css" href="CSS/global.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
 
     </head>
     <body>
 
-        <div class ="form-container">
-            <ul class="list">
-                <li>Member Login</li>
-                <li><input type="text" name="user Name" placeholder="User Name"></li>
-                <li><input type="password" name="Password" placeholder="********"></li>
-                <li><input type="button" name="Submit" value="Submit"></li>
-                <li>Forget Password?</li>
-                <li><a href="/home/harshit/Desktop/webChat/Pages/signUp.html"> New User? Sign Up</a></li>
-            </ul>
-
+        <div class="container">
+            <div class="wrap">
+                <div class="login">
+                    <form class="login-form">
+                        <span class="span-1">
+                            Member Login
+                        </span>
+    
+                        <div class="input">
+                            <input class="input-2" type="text" name="email" placeholder="Email">
+                            <span class="span-2"></span>
+                            <span class="symbol">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </span>
+                        </div>
+    
+                        <div class="input" data-validate = "Password is required">
+                            <input class="input-2" type="password" name="pass" placeholder="Password">
+                            <span class="span-2"></span>
+                            <span class="symbol">
+                                <i class="fa fa-lock" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        
+                        <div class="wrap-form-btn">
+                            <button class="login-form-btn">
+                                Login
+                            </button>
+                        </div>
+    
+                        <div class="text-center">
+                            <span class="txt1">
+                                Forgot
+                            </span>
+                            <a class="txt2" href="#">
+                                Username / Password?
+                            </a>
+                        </div>
+    
+                        <div class="text-center">
+                            <a class="txt3" href="#">
+                                Create your Account
+                                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
 
     </body>
