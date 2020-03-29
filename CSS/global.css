@@ -164,15 +164,7 @@
   }
   
   .input-2:focus + .span-2 {
-    -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
     animation: anim-shadow 0.5s ease-in-out forwards;
-  }
-  
-  @-webkit-keyframes anim-shadow {
-    to {
-      box-shadow: 0px 0px 70px 25px;
-      opacity: 0;
-    }
   }
   
   @keyframes anim-shadow {
