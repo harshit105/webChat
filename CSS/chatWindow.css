@@ -64,3 +64,7 @@ body{
 #sendButton:hover{
     background-color:#333333;
 }
+
+#sendButton:focus{
+    outline:none;
+}
